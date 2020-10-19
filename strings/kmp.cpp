@@ -1,3 +1,4 @@
+// Function to return the prefix array of a string
 vector<int> kmp(string &s) {
     int n = sz(s);
     vector<int> pi(n);
